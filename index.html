@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Fitness</title>
+  </head>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-style: italic;
+      /* font-weight: bold; */
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url(https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_960_720.jpg) no-repeat center center/cover;
+      
+    }
+    .left {
+      font-weight: bold;
+      font-size: 15px;
+      position: absolute;
+      left: 16px;
+      top: 7px;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+    .left img {
+      width: 73px;
+    }
+    .left div {
+      text-align: center;
+    }
+    .mid {
+      display: block;
+      width: 40%;
+      margin: 7px auto;
+      /* border: 2px solid rgb(79, 241, 4); */
+    }
+    .right {
+      position: absolute;
+      right: 6px;
+      top: 21px;
+      display: inline-block;
+      /* border: 2px solid rgb(238, 232, 232); */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 22px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 29px 9px;
+      /* font-size: 22px; */
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: grey;
+    }
+    .btn {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-style: italics;
+
+      margin: 0px 9px;
+      padding: 4px 14px;
+      background-color: black;
+      color: white;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: grey;
+    }
+    .container {
+      border: 2px solid rgb(197, 199, 194);
+      margin: 72px 18px;
+      padding: 31px 35px;
+      width: 33%;
+      top: 22px;
+      border-radius: 13px;
+    }
+    .form-group input {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      text-align: center;
+      display: block;
+      width: 380px;
+      padding: 4px;
+      border: 2px solid black;
+      margin: 3px auto;
+      border-radius: 8px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container button {
+      display: block;
+      width: 88%;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="/image/gym-g5757be1f7_640.png" alt="" />
+        <div>My Fitness</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active"> Home</a></li>
+          <li><a href="#"> About Us</a></li>
+          <li><a href="#"> Fitness Center </a></li>
+          <li><a href="#"> Contact Us </a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+        <button class="btn">Call Us Now</button
+        ><button class="btn">Email Us Now</button>
+      </div>
+    </header>
+    <div class="container">
+      <h2>Join the best gym of Ahmednagar now</h2>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Phone No" />
+        </div>
+        <button class="btn">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
